@@ -1,0 +1,40 @@
+.foot_box{
+	background-color: #5e3126;
+}
+.foot{
+	padding: 40px 0;
+	overflow: hidden;
+}
+.foot_box .foot .footcontent{
+	float: left;
+	width: 300px;
+	height: 200px;
+	color: #fff;
+}
+.foot_box .foot .footcontent h3{
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+.foot_box .foot .footcontent p{
+	padding: 5px 0;
+	font-size: 14px;
+}
+.foot_box .foot .footcontent p span{
+	color: #ff571a;
+}
+.foot_box .foot .footcontent p a{
+	color: #fff;
+}
+.foot_box .foot .footcontent p a:hover{
+	text-decoration: underline;
+	color: #ff571a;
+}
+.foot_box .foot .footcontent p.erweima{
+	font-size: 12px;
+	text-align: center;
+}
+.foot_box .foot .footcontent img{
+	margin:0 90px;
+	width: 120px;
+	height: 120px;
+}

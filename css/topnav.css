@@ -1,0 +1,281 @@
+/*顶部导航*/
+.topNav_box{
+	height: 150px;
+	background: url(../images/topnav.jpg) no-repeat right top;
+	min-width: 1200px;
+	padding-bottom: 123px;
+}
+.topNav{
+	height: 200px;
+}
+.topNav .nav{
+	float: left;
+	margin: 60px 0 60px 100px;
+	width: 210px;
+	height: 30px;
+}
+.topNav .nav a{
+	float: left;
+	margin:0 10px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #964f3d;
+}
+.topNav .nav a.color{
+	color: #ff571a;
+}
+.topNav .nav a:hover{
+	color: #ff571a;
+}
+.topNav .topnavsearch{
+	position: relative;
+	float: left;
+	margin: 58px 0 58px 50px;
+	width: 400px;
+	height: 30px;
+}
+.topNav .topnavsearch .search{
+	width:382px;
+	height: 34px;
+}
+.topNav .topnavsearch .search .searchinput{
+	float: left;
+	padding: 0 10px;
+	width: 280px;
+	height: 30px;
+	line-height: 30px;
+	border: 2px solid #aaa;
+	border-right: 0;
+	outline: none;
+}
+.topNav .topnavsearch .search a.searchsubmit{
+	float: left;
+	width: 80px;
+	height: 34px;
+	border: 0;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 18px;
+	line-height: 34px;
+	background-color: #964f3d;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+}
+.topNav .sign_box{
+	float: right;
+	margin:58px 0;
+	width: 150px;
+	height: 30px;
+	border:2px solid #964f3d;
+	background-color: #fff;
+}
+.topNav .sign_box .sign{
+	float: left;
+	padding:5px 15px;
+	width: 120px;
+	height: 20px;
+	background-image: url(../images/topnavsign.png);
+}
+.topNav .sign_box .sign a{
+	float: left;
+	margin:0 10px;
+	width:40px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #964f3d;
+	text-align: center;
+	cursor: pointer;
+}
+.topnavsearch ul{
+	width: 300px;
+	position: absolute;
+	top: 32px;
+	border: 2px solid #ff571a;
+	display: none;
+	z-index: 10;
+}
+.topnavsearch ul li{
+	position: relative;
+	height: 22px;
+	padding:2px 30px;
+	background-color: #fff;
+	font-size: 14px;
+	line-height: 22px;
+	cursor: pointer;
+}
+.topnavsearch ul li:hover{
+	background-color: #964f3d;
+	color: #fff;
+}
+.topnavsearch ul li i{
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	width: 16px;
+	height: 16px;
+	background-color: #964f3d;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+}
+.topNav .logo{
+	position: relative;
+	margin: 25px 0;
+	width: 200px;
+	height: 100px;
+	float: left; 
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.topNav .logo img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	transition: all 1s;
+}
+.topNav .logo img.img1{
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+.topNav .logo img.img2{
+	position: absolute;
+	top: 50px;
+	left: 60px;
+}
+.topNav .logo img.img3{
+	position: absolute;
+	top: 50px;
+	left: 110px;
+}
+.topNav .logo img.img4{
+	
+	top: 50px;
+	left: 160px;
+}
+.topNav .logo img:hover{
+	width: 64px;
+	height: 64px;
+	margin-left: -17px;
+	transition: all 1s;
+}
+/*二级导航栏*/
+div.indexnav{
+	min-width: 1200px;
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+div.indexnav li{
+	float: left;
+	display: block;
+	overflow: hidden;
+	font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-shadow: -1px 1px rgba(0, 0, 0, 0.3);
+	transition: background 0.3s;
+	overflow: visible;
+	width: 12.5%;
+}
+div.indexnav a{
+	display: block;
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	transition: background 0.3s, transform 0.3s;
+	text-transform: uppercase;
+	font-family: 'Goudy Bookletter 1911',Georgia,serif;
+	padding: 80px 20px 20px 20px;
+}
+div.indexnav a:after,
+div.indexnav a:before{
+	content: '';
+	position: absolute;
+	height: 0;
+	width: 0;
+	top: 100%;
+	transition: border 0.3s, transform 0.3s;
+}
+div.indexnav a:after{
+	border-left: 85px solid transparent;
+	right: 0px;
+}
+div.indexnav a:before{
+	border-right: 90px solid transparent;
+	left: 0px;
+}
+div.indexnav a:hover{
+	transform: translateX(20px);
+	transform: translateY(20px);
+}
+div.indexnav li.colour-1{
+	background-color: #964f3d;
+}
+div.indexnav li.colour-1 a:after,
+div.indexnav li.colour-1 a:before{
+	border-top: 27px solid #964f3d;
+}
+div.indexnav li.colour-1 a{
+	background-color: #964f3d;
+}
+div.indexnav li.colour-1:hover,
+div.indexnav li.colour-1:hover a{
+	background-color: #941212;
+}
+div.indexnav li.colour-1:hover a:after,
+div.indexnav li.colour-1:hover a:before{
+	border-top: 27px solid #941212;
+}
+div.indexnav li.colour-2{
+	background-color: #ab4a31;
+}
+div.indexnav li.colour-2 a:after,
+div.indexnav li.colour-2 a:before{
+	border-top: 27px solid #ab4a31;
+}
+div.indexnav li.colour-2 a{
+	background-color: #ab4a31;
+}
+div.indexnav li.colour-2:hover,
+div.indexnav li.colour-2:hover a{
+	background-color: #941212;
+}
+div.indexnav li.colour-2:hover a:after,
+div.indexnav li.colour-2:hover a:before{
+	border-top: 27px solid #941212;
+}
+div.indexnav li,div.indexnav a{
+	transform: translate3d(0, 0, 0);
+}
+div.indexnav li.index{
+	background-color: #941212;
+}
+div.indexnav li.index a{
+	background-color: #941212;
+	transform: translateX(0);
+	transform: translateY(20px);
+}
+div.indexnav li.index a:after,
+div.indexnav li.index a:before{
+	border-top: 27px solid #941212;
+}
+
+a.nav-toggle {
+	display: block;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #dce6f0;
+	color: #646464;
+	font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-align: center;
+}
+a.nav-toggle:hover {
+	background-color: #c8d2dc;
+}
